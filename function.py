@@ -40,14 +40,13 @@ def check_prime(num):
 
 
 
-def sumFactorial(m):
+def sumFactorial(n):
     B=0
-    A=1
-    for k in range (1,m+1):
+    for k in range(1,n+1):
         A=1
-        for i in range (1,k+1):
+        for i in range(1,k+1):
             A=i*A
         B=B+A
     return B
 
-print(sumFactorial(4)) 
+# print(sumFactorial(4)) 
