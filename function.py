@@ -39,7 +39,7 @@ def check_prime(num):
 
 
 
-
+# summing factorial algorithm TASK 2
 def sumFactorial(n):
     B=0
     for k in range(1,n+1):
